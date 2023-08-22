@@ -1,0 +1,85 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "active-sessions;rpf-1678-checking-the-existing-columns-in-active-sessions-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "RPF-1678 Checking the existing columns in active sessions page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the active sessions page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ID"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "User Email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Issued At"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Expires At"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Delete"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The system should show me the following columns",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestName:RPF-1678",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "active-sessions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Active sessions",
+    "tags": [],
+    "uri": "cypress/e2e/features/active-sessions.feature"
+  }
+]
