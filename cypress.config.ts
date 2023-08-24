@@ -22,7 +22,7 @@ export default defineConfig({
       const fixedOn = fix(on);
       await configureXrayPlugin(config, {
           plugin: {
-            debug: true,
+            debug: false,
           },
           cucumber: {
             featureFileExtension: ".feature",
@@ -30,7 +30,7 @@ export default defineConfig({
           },
           jira: {
             projectKey: "RPF",
-            url: "https://<MY_PROJECT>.atlassian.net",
+            url: "https://raidiam.atlassian.net",
             testExecutionIssueKey: process.env.CYPRESS_TEST_EXECUTION_KEY,
           },
           xray: {

@@ -1,0 +1,13 @@
+{
+    "fields": {
+      "project": {
+        "key": "RPF"
+      },
+      "summary": "Debug Execution Issue",
+      "description": "For debugging https://github.com/Qytera-Gmbh/cypress-xray-plugin/issues/151",
+      "issuetype": {
+        "name": "Test Execution"
+      }
+    },
+    "xrayFields": {}
+  }
